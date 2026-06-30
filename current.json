@@ -1,0 +1,14 @@
+[
+  {
+    "rank": 1,
+    "team_name": "测试队伍",
+    "final_score": 0.360975,
+    "mean_psnr": 0.444268,
+    "mean_ssim": 0.00416559,
+    "valid_images": 3,
+    "invalid_images": 97,
+    "num_images": 100,
+    "status": "completed",
+    "evaluated_at": "2026-06-30T05:41:58Z"
+  }
+]
