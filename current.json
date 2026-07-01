@@ -1,6 +1,18 @@
 [
   {
     "rank": 1,
+    "team_name": "黑盒测试队伍wzy",
+    "final_score": 11.595782,
+    "mean_psnr": 14.79118,
+    "mean_ssim": 0.10349635,
+    "valid_images": 100,
+    "invalid_images": 0,
+    "num_images": 100,
+    "status": "completed",
+    "evaluated_at": "2026-07-01T07:31:24Z"
+  },
+  {
+    "rank": 2,
     "team_name": "测试队伍",
     "final_score": 0.360975,
     "mean_psnr": 0.444268,
@@ -12,7 +24,7 @@
     "evaluated_at": "2026-06-30T05:40:02Z"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "team_name": "黑盒测试队伍",
     "final_score": 0.360975,
     "mean_psnr": 0.444268,
@@ -22,18 +34,6 @@
     "num_images": 100,
     "status": "completed",
     "evaluated_at": "2026-06-30T11:00:00Z"
-  },
-  {
-    "rank": 3,
-    "team_name": "黑盒测试队伍wzy",
-    "final_score": 0.360975,
-    "mean_psnr": 0.444268,
-    "mean_ssim": 0.00416559,
-    "valid_images": 3,
-    "invalid_images": 97,
-    "num_images": 100,
-    "status": "completed",
-    "evaluated_at": "2026-07-01T05:02:23Z"
   },
   {
     "rank": 4,
