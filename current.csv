@@ -1,2 +1,1 @@
 ﻿rank,team_name,final_score,mean_psnr,mean_ssim,valid_images,invalid_images,num_images,status,evaluated_at
-1,如琢如磨,0.360975,0.444268,0.00416559,3,97,100,completed,2026年7月9日 01:22:28（北京时间）
