@@ -42,6 +42,7 @@
     }
     .toolbar {
       display: flex;
+      flex-wrap: wrap;
       gap: 12px;
       align-items: center;
       justify-content: space-between;
@@ -49,6 +50,12 @@
       color: var(--muted);
       font-size: 14px;
     }
+    .download-link {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .download-link:hover { text-decoration: underline; }
     .table-wrap {
       overflow-x: auto;
       background: var(--panel);
@@ -96,11 +103,12 @@
 <body>
   <header>
     <h1>PRCV2026 垃圾图像高斯噪声去噪挑战赛排行榜</h1>
-    <div class="meta">更新时间：2026年7月12日 19:27:41（北京时间） · 排序策略：best</div>
+    <div class="meta">更新时间：2026年7月12日 19:28:14（北京时间） · 排序策略：best</div>
   </header>
   <main>
     <div class="toolbar">
       <div>当前展示每队最佳成绩，共 12 支队伍。</div>
+      <a class="download-link" href="Results_%E6%B5%8B%E8%AF%95%E9%98%9F%E4%BC%8D.zip" download>下载提交样例（Results_测试队伍.zip）</a>
     </div>
     <div class="table-wrap">
       <table>
