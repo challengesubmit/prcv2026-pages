@@ -97,13 +97,18 @@
       color: var(--muted);
       font-size: 13px;
       padding: 0 clamp(16px, 4vw, 48px) 30px;
+      line-height: 1.65;
     }
+    footer p { margin: 0 0 8px; }
+    footer ul { margin: 4px 0 10px; padding-left: 20px; }
+    footer li { margin: 2px 0; }
+    .footer-title { color: var(--ink); font-weight: 650; }
   </style>
 </head>
 <body>
   <header>
     <h1>PRCV2026 垃圾图像高斯噪声去噪挑战赛排行榜</h1>
-    <div class="meta">更新时间：2026年7月13日 00:52:54（北京时间） · 排序策略：best</div>
+    <div class="meta">更新时间：2026年7月13日 00:58:36（北京时间） · 排序策略：best</div>
   </header>
   <main>
     <div class="toolbar">
@@ -129,6 +134,18 @@
       </table>
     </div>
   </main>
-  <footer>当前默认按照每30分钟一次的频率进行评测和更新，由于网络原因网页更新可能存在一定延迟，若提交后页面未显示记录，请先核对提交格式和命名是否正确。非首次提交的，排行榜仅显示历史提交最优结果。如有问题请邮件咨询竞赛组委会 challenges_submit@163.com。本页面由本地评测流水线自动生成。</footer>
+  <footer>
+    <p>当前默认按照每30分钟一次的频率进行评测和更新，由于网络原因网页更新可能存在一定延迟，若提交后页面未显示记录，请先核对提交格式和命名是否正确。非首次提交的，排行榜仅显示历史提交最优结果。</p>
+    <div class="footer-title">常见提交错误</div>
+    <ul>
+      <li>ZIP 内额外套了一层结果目录；team_info.txt 和所有 PNG 必须直接位于 ZIP 根目录。</li>
+      <li>缺少 team_info.txt，或字段名未使用 team_id、team_name、captain_name、organization。</li>
+      <li>ZIP 文件名不符合 Results_队伍名称.zip 或 PRCV2026-队伍编号-队伍名称.zip；网盘自动追加的 (1)、(2) 等末尾后缀允许保留。</li>
+      <li>team_info.txt 中的队伍编号、队伍名称与报名记录或 ZIP 文件名不一致。</li>
+      <li>PNG 数量不足、文件名与验证集输入不一致，或图片未直接放在 ZIP 根目录。</li>
+      <li>同一队伍在北京时间同一自然日超过 3 次有效提交。</li>
+    </ul>
+    <p>如有问题请邮件咨询竞赛组委会 challenges_submit@163.com。本页面由本地评测流水线自动生成。</p>
+  </footer>
 </body>
 </html>
